@@ -5,7 +5,7 @@ const secs = document.getElementById('secs');
 
 
 const formatTime = (time) => {
-    return time < 10 ? `0$(time)` : time;
+    return time < 10 ? `0${time}` : time;
  }
 
 const updateCountDown = (deadline) => {
